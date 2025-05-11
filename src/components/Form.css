@@ -1,0 +1,72 @@
+.form-container,
+.display-container {
+  max-width: 400px;
+  margin: 1rem auto;
+  /* padding: 0.5rem; */
+  /* border: 2px solid #ccc; */
+  /* border-radius: 12px; */
+  text-align: left;
+  /* background-color: #f9f9f9; */
+}
+
+.avatar-upload {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.upload-icon {
+  width: auto;
+  height: 150px;
+  border: 2px dashed #aaa;
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 auto 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.avatar-upload input {
+  display: none;
+}
+
+.avatar-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header{
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"] {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-content: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #006fd6;
+}

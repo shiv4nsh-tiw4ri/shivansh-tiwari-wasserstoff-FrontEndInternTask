@@ -1,0 +1,11 @@
+.mainHeading{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0rem 0rem;
+    color: whitesmoke
+}
+
+.subHeading{
+    margin: 0;
+    color: rgb(203, 202, 202);
+}
